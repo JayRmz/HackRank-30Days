@@ -35,3 +35,18 @@ In this challenge, you'll work with arithmetic operators. Check out the Tutorial
 
 ### Task
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
+
+
+## Day 3 - Intro to Conditional Statements
+
+### Objective
+In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
+
+### Task
+Given an integer,n , perform the following conditional actions:
+
+If n is odd, print Weird
+If n is even and in the inclusive range of 2 to 5, print Not Weird
+If n is even and in the inclusive range of 6 to 20, print Weird
+If n is even and greater than 20, print Not Weird
+Complete the stub code provided in your editor to print whether or not n is weird.
