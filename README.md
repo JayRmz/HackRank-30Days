@@ -6,17 +6,11 @@ I'm going to try solving every single challenge in Swift 5 with CLT for MacOS
 
 ## Day 0 - Hello, World.
 
-### Objective 
-In this challenge, we review some basic concepts that will get you started with this series. You will need to use the same (or similar) syntax to read input and write output in challenges throughout HackerRank. Check out the Tutorial tab for learning materials and an instructional video!
-
 ### Task
 To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
 
 
 ## Day 1 - Data Types
-
-### Objective
-Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
 
 ### Task
 Complete the code in the editor below. The variables i, d, and s are already declared and initialized for you. You must:
@@ -30,17 +24,11 @@ Complete the code in the editor below. The variables i, d, and s are already dec
 
 ## Day 2 - Operators
 
-### Objective
-In this challenge, you'll work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video!
-
 ### Task
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
 
 
 ## Day 3 - Intro to Conditional Statements
-
-### Objective
-In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
 
 ### Task
 Given an integer,n , perform the following conditional actions:
@@ -50,3 +38,16 @@ If n is even and in the inclusive range of 2 to 5, print Not Weird
 If n is even and in the inclusive range of 6 to 20, print Weird
 If n is even and greater than 20, print Not Weird
 Complete the stub code provided in your editor to print whether or not n is weird.
+
+
+## Day 4 - Class vs. Instance
+
+### Task
+Write a Person class with an instance variable, , and a constructor that takes an integer, , as a parameter. The constructor must assign  to  after confirming the argument passed as  is not negative; if a negative argument is passed as , the constructor should set  to  and print Age is not valid, setting age to 0.. In addition, you must write the following instance methods:
+
+yearPasses() should increase the  instance variable by .
+amIOld() should perform the following conditional actions:
+If , print You are young..
+If  and , print You are a teenager..
+Otherwise, print You are old..
+To help you learn by example and complete this challenge, much of the code is provided for you, but you'll be writing everything in the future. The code that creates each instance of your Person class is in the main method. Don't worry if you don't understand it all quite yet!
