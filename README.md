@@ -76,3 +76,9 @@ Given an array, A, of N integers, print A's elements in reverse order as a singl
 ### Task
 Given N names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. 
 For each name queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for name is not found, print Not found instead.
+
+
+## Day 9 - Recursion 3
+
+### Task
+Write a factorial function that takes a positive integer, N as a parameter and prints the result of N! (N factorial).
